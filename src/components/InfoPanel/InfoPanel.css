@@ -1,0 +1,93 @@
+.info-panel {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.info-box {
+  position: fixed;
+  right: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  top: 35%;
+  z-index: 3;
+  font-family: "Slime Box";
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  padding: 12px 24px;
+}
+
+.info-box-title {
+  font-size: 32px;
+}
+
+.info-box-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  max-width: 420px;
+}
+
+.info-intro {
+  margin: 12px 0 16px 0;
+  line-height: 1.6;
+  font-size: 15px;
+}
+
+.info-list {
+  list-style: disc;
+  padding-left: 20px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.info-list li {
+  line-height: 1.6;
+}
+
+.info-box a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  opacity: 0.85;
+  transition: opacity 0.2s ease;
+}
+
+.info-box a:hover {
+  opacity: 1;
+}
+
+@media (max-width: 1300px) {
+  .info-box {
+    right: 10px;
+  }
+}
+
+@media (max-width: 1250px) {
+  .info-box {
+    top: 220px;
+    width: 420px;
+  }
+}
+
+@media (max-width: 764px) {
+  .info-box {
+    bottom: 120px;
+    top: auto;
+    left: 50%;
+    right: auto;
+    transform: translateX(-50%);
+    width: 390px;
+  }
+}
