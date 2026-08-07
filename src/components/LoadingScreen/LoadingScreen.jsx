@@ -149,23 +149,6 @@ const LoadingScreen = () => {
               }}
             />
 
-            <a
-              href="https://github.com/andrewwoan/aimee-weis-papercraft-world"
-              className="credits-link"
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{
-                position: "absolute",
-                left: "50%",
-                bottom: "15%",
-                transform: "translate(-50%, -50%)",
-                fontSize: "14px",
-                color: "rgb(233, 233, 233)",
-                textDecoration: "underline",
-              }}
-            >
-              See full list of credits here!!
-            </a>
 
             <div
               className="instructions"
