@@ -1,0 +1,15 @@
+# Blender source files — not needed in deployment
+Blender Files and Addon/
+
+# Raw uncompressed assets — processed versions are already in public/
+raw_assets/
+
+# Node scripts — only used locally
+scripts/
+
+# Documentation
+CODEBASE.md
+README.md
+
+# Git
+.git/
