@@ -95,7 +95,7 @@ const LoadingScreen = () => {
             {/* Lol don't do this this is cringe */}
             <div
               style={{
-                backgroundImage: 'url("/images/head_smile.webp")',
+                backgroundImage: 'url("/images/zenitsu.webp")',
                 width: 0,
                 height: 0,
                 visibility: "hidden",
@@ -105,7 +105,7 @@ const LoadingScreen = () => {
 
             <div
               style={{
-                backgroundImage: 'url("/images/head.webp")',
+                backgroundImage: 'url("/images/zenitsu.webp")',
                 width: 0,
                 height: 0,
                 visibility: "hidden",
