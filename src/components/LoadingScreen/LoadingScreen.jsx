@@ -86,7 +86,7 @@ const LoadingScreen = () => {
                 style={{
                   left: `${maxProgress}%`,
                   transform: "translate(-65px, -50%)",
-                  backgroundImage: `url("/images/${isHovered ? "head_smile" : "head"}.webp")`,
+                  backgroundImage: `url("/images/zenitsu.webp")`,
                 }}
               />
             </div>
